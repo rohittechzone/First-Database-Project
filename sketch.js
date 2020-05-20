@@ -41,7 +41,8 @@ function draw(){
 function readloc(data){
     position = data.val();
     ball.x = position.x;
-    ball.y = position.x;
+    ball.y = position.y;
+    
 }
 
 function showerror(){
